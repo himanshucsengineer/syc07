@@ -1,0 +1,34 @@
+.fc_underline {
+  border-bottom: 4px solid $dbrown;
+  padding-bottom: 1rem;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.fc_options_h1 {
+  color: $dbrown;
+}
+
+.fc_banner {
+  background-color: $dbrown;
+  background-image: linear-gradient(
+      rgba(212, 68, 68, 0.808),
+      rgba(212, 68, 68, 0.801)
+    ),
+    url("/images/pattern2@2x.png");
+}
+
+.fc_banner_color {
+  color: #fff;
+}
+
+.writetous {
+  border: 1px dashed $dbrown;
+  padding: 5rem;
+  border-radius: 5px;
+}
+
+.franchies_form {
+  width: 100%;
+}

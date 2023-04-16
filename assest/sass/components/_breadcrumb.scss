@@ -1,0 +1,16 @@
+.breadcrumb {
+  padding: 2.6rem 0rem 0.6rem 0rem;
+  margin: 1rem;
+}
+
+.bc_link {
+  color: $dbrown !important;
+}
+
+.bc_link:hover {
+  color: rgb(38, 102, 239) !important;
+}
+
+.bc_link_active {
+  color: rgb(82, 82, 82) !important;
+}

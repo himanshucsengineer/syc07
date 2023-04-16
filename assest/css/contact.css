@@ -1,0 +1,157 @@
+.contact_top {
+  width: 100%;
+  height: auto;
+  padding: 5rem 0rem;
+  background-image: url(../../assest/images/contact_bg2.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 10%) !important;
+}
+
+.contact_top h2 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  
+}
+
+.contact_top p {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: 400;
+ 
+}
+
+.contact_form {
+  width: 100%;
+  height: auto;
+  padding: 5rem 0rem;
+  background-color: #ecf0f1;
+
+}
+
+.contact_form .contact_main_form {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  border: 1px solid #cdcdcd;
+  box-shadow: 0px 4px 7px -2px rgb(0 0 0 / 20%);
+  padding: 1rem 1rem;
+}
+
+.contact_form .contact_main_form input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,select {
+  width: 100%;
+  height: auto;
+  padding: .8rem 1rem;
+  border: 1px solid #cdcdcd;
+  outline: none;
+  margin-bottom: 1.5rem;
+}
+
+.contact_form .contact_main_form label {
+  color: rgb(150, 148, 148);
+  font-size: 17px;
+}
+
+.contact_form .contact_main_form button {
+  background-color: #1876bf;
+  width: 8rem;
+  height: auto;
+  padding: .5rem;
+  color: white;
+  border: 2px solid #1876bf;
+  font-size: 17px;
+  font-weight: 600;
+  outline: none;
+
+  border-radius: 5px;
+}
+
+.contact_deeee {
+  width: 100%;
+  height: auto;
+  padding-bottom: 3rem;
+  background-color: #ecf0f1;
+}
+
+.contact_deeee .contact_main_details {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact_deeee .contact_main_details_card {
+  width: 100%;
+  padding: 1rem .5rem;
+}
+
+.contact_deeee .contact_main_details_card_inner {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  border: 1px solid #cdcdcd;
+  box-shadow: 0px 4px 7px -2px rgb(0 0 0 / 20%);
+  padding: 3rem 4rem;
+  text-align: center;
+}
+
+.contact_deeee .contact_main_details_card_inner i {
+  font-size: 35px;
+  color: #1876bf;
+}
+
+.contact_deeee .contact_main_details_card_inner h2 {
+  color: #1876bf;
+  font-size: 25px;
+
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact_deeee .contact_main_details_card_inner p {
+  color: #212529;
+  font-size: 17px;
+  font-weight: 400;
+
+  margin: 0rem !important;
+  line-height: 1.6;
+}
+
+.contact_deeee .contact_main_details_card_inner .bllbb {
+  font-weight: 600;
+}
+
+.direction_map {
+  width: 100%;
+  height: auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .contact_top{
+      padding: 2rem 0rem;
+  }
+  .contact_top h2{
+      font-size:30px;
+  }
+  .contact_top p{
+      font-size:15px;
+  }
+  .contact_deeee .contact_main_details_card{
+      width: 100%;
+  }
+  .contact_deeee .contact_main_details_card_inner{
+      padding:3rem 0rem;
+  }
+}

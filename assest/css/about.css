@@ -1,0 +1,178 @@
+.about_brad {
+  width: 100%;
+  height: auto;
+  padding: 5rem 0rem;
+  background-image: url(../../assest/images/about_bg_main.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 10%) !important;
+}
+
+.about_brad h2 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  
+}
+
+.about_brad p,a {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: 400;
+ text-decoration:none;
+}
+.about_brad a:hover {
+ color: whitesmoke;
+ text-decoration:none;
+}
+.about_us_main{
+  width: 100%;
+  height: auto;
+  padding: 4rem 0rem;
+  background-color: #fff;
+}
+.about_us_main img{
+  width: 100%;
+  height: 500px;
+}
+.about_us_main h2{
+  text-transform: uppercase;
+  color: #1876bf;
+  font-weight: 600;
+  font-size: 30px;
+  position: relative;
+}
+.about_us_main h2::after{
+  content: '';
+  position: absolute;
+  height: 2px;
+  background-color: #1876bf;
+  bottom: -10px;
+  width: 100px;
+  left: 0;
+}
+.about_us_main p{
+  margin-top: 2rem;
+  color: #444444;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 300;
+}
+.mission{
+  width: 100%;
+  height: auto;
+  padding: 4rem 0rem;
+  background-color: #fff;
+}
+.mission img{
+  width: 100%;
+  height: auto;
+}
+.mission h2{
+  text-transform: uppercase;
+  color: #1876bf;
+  font-weight: 600;
+  font-size: 30px;
+  position: relative;
+}
+.mission h2::after{
+  content: '';
+  position: absolute;
+  height: 2px;
+  background-color: #1876bf;
+  bottom: -10px;
+  width: 70px;
+  left: 0;
+}
+.mission p{
+  margin-top: 2rem;
+  color: #444444;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+.mission .mission_point{
+  padding: 20px 20px 20px 30px;
+  background-color: #f9fafb;
+  border-left: 2px solid #0c84b7;
+  margin-bottom: 1rem;
+}
+.mission .mission_point p{
+  color: #1876bf;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+.vision {
+  width: 100%;
+  height: auto;
+  padding: 150px 0rem;
+  background-image: url(../../assest/images/about_bg_main.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 2000px #1877bfaa !important;
+}
+.vision h2{
+  text-transform: capitalize;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+  position: relative;
+}
+.vision h2::after{
+  content: '';
+  position: absolute;
+  height: 1px;
+  background-color: #dbdcdd;
+  bottom: -10px;
+  width: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.vision h3{
+  text-transform: capitalize;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+  position: relative;
+  font-style: italic;
+  margin-top: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .about_brad{
+      padding: 2rem 0rem;
+  }
+  .about_brad h2{
+      font-size:30px;
+  }
+  .about_brad p{
+      font-size:15px;
+  }
+  .vision{
+      padding: 100px 0px;
+  }
+  .vision h2{
+      font-size: 30px;
+  }
+  .vision h3{
+      font-size: 25px;
+  }
+  .revere{
+      flex-wrap: wrap-reverse;
+  }
+  .mission .mission_point p{
+      font-size: 15px;
+  }
+}

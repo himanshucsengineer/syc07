@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5% !important;
+}
+
+body {
+  // font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem !important;
+  color: rgb(46, 46, 46);
+  background-color: rgb(255, 255, 255);
+}
+
+main {
+  min-height: 60vh;
+}
+
+.container {
+  max-width: 118rem !important;
+  // max-width: 100% !important;
+}

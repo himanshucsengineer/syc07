@@ -1,0 +1,61 @@
+.amt_lable {
+  padding: 0;
+  font-size: 1.4rem;
+  color: rgb(133, 133, 133);
+}
+
+.donate_amt {
+  background-color: #eee;
+  padding: 0.6rem;
+  border: 1px solid rgb(202, 202, 202);
+  border-radius: 5px;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin: 0.6rem;
+}
+
+.donate_amt_brown {
+  background-color: $dbrown;
+  padding: 0.6rem;
+  border: 1px solid rgb(202, 202, 202);
+  border-radius: 5px;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 0.6rem;
+}
+
+.donate_input_lable {
+  font-size: 1.5rem;
+
+  color: $lightlable;
+}
+
+.donar_input_pay {
+  font-size: 3rem;
+  font-weight: 600;
+  color: $dbrown;
+}
+.donar_input_pay::placeholder {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.donar_pay {
+  background-color: rgb(92, 175, 67);
+  color: #fff;
+  font-size: 2rem;
+}
+
+// Test
+
+// .testbtn {
+//   background-color: rgb(255, 255, 255);
+//   border: 1px solid rgb(230, 87, 87);
+//   margin: 1rem;
+// }
+
+// .testactive {
+//   background-color: rgb(235, 115, 115);
+//   color: #fff;
+// }

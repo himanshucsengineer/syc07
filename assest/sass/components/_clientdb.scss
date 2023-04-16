@@ -1,0 +1,68 @@
+.client_dashboard {
+  padding: 1rem;
+
+  li {
+    list-style-type: none;
+    padding: 1rem 0.2rem;
+    border-bottom: 1px solid #eee;
+
+    a {
+      text-decoration: none;
+      color: $dbrown;
+    }
+  }
+}
+
+.my_dogs_available {
+  color: rgb(27, 94, 19);
+}
+
+.my_dogs_adopted {
+  color: $dbrown;
+}
+
+.my_dogs_edit {
+  color: $dbrown;
+  font-size: 1.6rem;
+  // border: 1px solid red;
+}
+
+.preview {
+  height: 8rem;
+  background-color: rgb(255, 255, 255);
+  border: 1px dashed #eee;
+  font-size: 1.6rem;
+}
+
+.choose {
+  width: 10rem;
+  font-size: 1.2rem;
+}
+
+.client_slide_links {
+  background-color: rgb(247, 247, 247);
+  color: rgb(90, 90, 90);
+  padding: 1rem 2rem;
+  // box-shadow: 0px 2px 2px rgb(230, 230, 230);
+  border-bottom: 2px solid rgb(172, 172, 172);
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.client_slide_links_active{
+  background-color: $dbrown;
+  color: rgb(255, 255, 255);
+  border-bottom: 3px solid $dbrown;
+}
+
+.client_h3{
+  background-color: #eee;
+  padding: .9rem;
+  font-size: 1.8rem;
+}
+
+// .client_right{
+//   background-color: rgb(250, 250, 250);
+//   padding: 2rem;
+// }

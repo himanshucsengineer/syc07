@@ -1,0 +1,13 @@
+//  Header Media query
+@media only screen and (max-width: 780px) {
+  // Mobile Header Code
+
+  .m_hide {
+    display: none;
+  }
+  .m_display {
+    display: block;
+  }
+
+  // End Mobile Header
+}

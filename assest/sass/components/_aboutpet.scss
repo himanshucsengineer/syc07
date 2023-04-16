@@ -1,0 +1,52 @@
+ul {
+  padding-left: 1rem !important;
+}
+
+.about_pet {
+  border: 1px solid rgb(224, 224, 224);
+  box-shadow: 0px 1px 2px rgb(212, 212, 212);
+}
+
+.about_pet_fimg {
+  width: 100%;
+}
+
+.about_pet_subimg {
+  width: 100%;
+  border: 1px solid rgb(223, 223, 223);
+  padding: 0.2rem;
+  height: 8rem;
+}
+
+.about_pet_point {
+  ul {
+    li {
+      list-style-type: none;
+    }
+  }
+}
+
+.about_pet_point_li {
+  padding-right: 0.8rem;
+  font-weight: 600;
+}
+
+.somemore_pets {
+  background-color: rgb(245, 245, 245);
+  border: 1px solid rgb(202, 202, 202);
+  padding: 2.5rem 2rem;
+}
+
+.adopt_me_btn {
+  background-color: $dbrown;
+  padding: 0.6rem;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 2rem;
+  border: none;
+  transition: all 0.2 ease;
+}
+
+.adopt_me_btn:hover {
+  background-color: rgb(189, 56, 56);
+}

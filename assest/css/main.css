@@ -1,0 +1,966 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5% !important;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem !important;
+  color: #2e2e2e;
+  background-color: white;
+}
+
+main {
+  min-height: 60vh;
+}
+
+.container {
+  max-width: 118rem !important;
+}
+
+.d_hide {
+  display: none;
+}
+
+.col_fff {
+  color: #fff !important;
+}
+
+.spacer {
+  padding: 3rem;
+}
+
+.spacer_m {
+  padding: 2rem;
+}
+
+.spacer_s {
+  padding: 1.3rem;
+}
+
+.bod {
+  border: 1px solid red;
+}
+
+ul {
+  margin-left: 1.2rem;
+}
+
+.base_input {
+  font-size: 2rem;
+  outline: #eee;
+  border: 1px solid #bebebe;
+}
+
+.base_input::placeholder {
+  font-size: 1.5rem;
+}
+
+.brown_btn {
+  background-color: #d44444;
+  color: #fff;
+  font-size: 1.9rem;
+  border: none;
+  padding: 0.8rem;
+  transition: all 0.2s ease;
+}
+
+.brown_btn:hover {
+  background-color: #c23a3a;
+}
+
+.yellow_btn {
+  background-color: #f39933;
+  color: #fff;
+  font-size: 1.9rem;
+}
+
+.fbtn {
+  border: none;
+  background-color: #d44444;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 1rem;
+  border-radius: 4px;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.fbtn:hover {
+  background-color: #be3636;
+}
+
+.nodecoration {
+  text-decoration: none !important;
+  color: #2f2f2f !important;
+}
+
+.nodecoration:hover {
+  text-decoration: none !important;
+  color: #2f2f2f !important;
+}
+
+.nospacing {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.modal_head {
+  color: #d44444;
+}
+
+.lstn {
+  list-style-type: none;
+  padding: 0.6rem 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding: 1rem 0 0.4rem 0;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding: 1rem 0 0.4rem 0;
+}
+
+p {
+  font-size: 1.7rem;
+  padding: 0 !important;
+}
+
+.base_heading_h2 {
+  font-size: 2.5rem !important;
+  color: #d44444 !important;
+  font-weight: 700 !important;
+}
+
+.h1_head {
+  font-weight: 600;
+  font-size: 4rem;
+  color: #353535;
+}
+
+.h2_head {
+  font-weight: 600;
+  font-size: 3rem;
+  color: #3b3b3b;
+}
+
+.h3_head {
+  font-weight: 700;
+  color: #d44444 !important;
+  font-size: 2.3rem;
+  color: #3b3b3b;
+}
+
+.topbar {
+  height: 2.8rem;
+  background-color: #d44444;
+}
+
+.header {
+  padding: 2.2rem 2rem;
+  background-color: white;
+  font-size: 1.8rem;
+  position: relative;
+  box-shadow: 0px 1px 4px rgba(212, 68, 68, 0.342);
+  z-index: 44;
+}
+
+.title_strip_brown {
+  background-image: linear-gradient(to right, rgba(212, 68, 68, 0.973), rgba(212, 68, 68, 0.788)), url("../images/dogpattern.png");
+  background-size: contain;
+  background-repeat: repeat;
+  padding: 1.8rem;
+}
+
+.title_strip_brown_h1 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 700;
+  padding-left: 4.5rem;
+}
+
+.title_strip_brown_ul {
+  background-color: #f39933;
+  height: 3px;
+  margin-left: 1rem;
+}
+
+.title_strip_yellow {
+  background-color: #f39933;
+  margin: 1rem 0;
+}
+
+.title_strip_yellow_h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.title_strip_yellow_ul {
+  background-color: #d44444;
+  height: 3px;
+  margin-left: 1rem;
+}
+
+.nav_links {
+  text-decoration: none;
+  color: #464646;
+  font-weight: 500;
+}
+
+.nav_links:hover {
+  color: #d44444;
+  border-bottom: 2px solid #d44444;
+  transition: all 0.2s ease;
+}
+
+.h_nav_links li {
+  list-style-type: none;
+  padding: 0rem 3rem;
+}
+
+.h_nav_links li a {
+  text-decoration: none;
+  color: #575757;
+  font-weight: 600;
+}
+
+.h_nav_links li a:hover {
+  color: #d44444;
+  border-bottom: 2px solid #d44444;
+  transition: all 0.2s ease;
+}
+
+.header_mobile {
+  display: none;
+}
+
+.handburger {
+  display: none;
+}
+
+.header_2 {
+  padding: 2rem 0rem;
+}
+
+.header_btn {
+  min-width: 10rem;
+  background-color: #d44444;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #fff !important;
+  padding: 1rem 1.3rem;
+  margin-left: 1rem;
+}
+
+.header_2_nav {
+  background-color: #d44444;
+}
+
+.head_top {
+  margin-bottom: 2.5rem;
+}
+
+.btn_remove {
+  background-color: #d44444;
+  border: none;
+  color: #fff;
+}
+
+.head_nav_links {
+  list-style-type: none;
+  color: #fff;
+  min-width: 12rem;
+  padding: 1.3rem;
+  transition: all 0.2s ease;
+}
+
+.head_nav_links:hover {
+  background-color: #b42121;
+}
+
+.nav_links {
+  min-width: 10rem;
+  list-style-type: none;
+  color: #fff;
+}
+
+.nav_items {
+  background-color: #dfdfdf;
+  padding: 0.8rem 1.9rem;
+  border-right: 1px solid #fff7f7;
+  position: relative;
+}
+
+.nav_items_dropdown {
+  position: absolute;
+  display: none;
+  top: 4rem;
+  left: 0rem;
+}
+
+.nav_items_dropdown_link {
+  background-color: #f8f8f8;
+  border-bottom: 2px solid #d44444;
+  min-width: 20rem;
+}
+
+.nav_items_dropdown_link:hover {
+  background-color: #d44444;
+}
+
+.nav_items_dropdown_link:hover a {
+  color: #fff !important;
+}
+
+#d1:hover .d1 {
+  display: block;
+}
+
+#d2:hover .d2 {
+  display: block;
+}
+
+#d3:hover .d3 {
+  display: block;
+}
+#d8:hover .d8 {
+  display: block;
+}
+#d4:hover .d4 {
+  display: block;
+}
+
+#d5:hover .d5 {
+  display: block;
+}
+
+#d6:hover .d6 {
+  display: block;
+}
+#d7:hover .d7 {
+  display: block;
+}
+
+.nav_items:hover {
+  background-color: #d44444;
+  color: #fff !important;
+}
+
+.nav_items:hover .nav_items_link {
+  color: #fff !important;
+}
+
+.header_nav {
+  background-color: #eee;
+}
+
+.breadcrumb {
+  padding: 2.6rem 0rem 0.6rem 0rem;
+  margin: 1rem;
+}
+
+.bc_link {
+  color: #d44444 !important;
+}
+
+.bc_link:hover {
+  color: #2666ef !important;
+}
+
+.bc_link_active {
+  color: #525252 !important;
+}
+
+.home_h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #d44444;
+}
+
+.cimgheight {
+  height: 45rem;
+}
+
+.homecrousal {
+  z-index: -10;
+}
+
+.three_feature {
+  z-index: 10;
+}
+
+.boxShadow {
+  box-shadow: 0px 2px 4px #9c9c9c;
+}
+
+.showbox {
+  height: 35rem;
+  border: 10px solid #eee;
+  background-image: linear-gradient(#490d0db0, #d444447c), url("../images/img1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.showbox_middle {
+  height: 35rem;
+  border: 10px solid #eee;
+  background-color: #f39933;
+}
+
+.showbox_content h1 {
+  font-weight: 800;
+  font-size: 3.5rem;
+  color: #fff;
+  margin-top: 2.6rem;
+}
+
+.showbox_content p {
+  color: #fff;
+  margin-top: 1.5rem;
+}
+
+.about_section_left {
+  background-image: linear-gradient(rgba(212, 68, 68, 0.822), rgba(212, 68, 68, 0.726)), url("../images/dogpattern.png");
+  background-size: contain;
+  background-color: #d44444;
+  padding: 4rem;
+}
+
+.about_section_left h2 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+.about_section_left p {
+  color: #fff;
+}
+
+.about_sec_img {
+  width: 100%;
+  padding: 0 !important;
+}
+
+.pet_blog {
+  background-color: #fff7ea;
+  background-image: linear-gradient(rgba(255, 247, 234, 0.801), rgba(255, 247, 234, 0.904)), url("../images/dogpattern.png");
+  padding: 5rem 0;
+}
+
+.pet_blog_box {
+  padding: 0.8rem;
+}
+
+.pet_blog_box img {
+  width: 100%;
+  box-shadow: 0px 1px 2px #bbbbbb;
+  height: 22rem;
+  border-radius: 2px;
+}
+
+.pet_blog_box a {
+  text-decoration: none;
+  color: #2f2f2f;
+}
+
+.pet_blog_box h3 {
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
+.amt_lable {
+  padding: 0;
+  font-size: 1.4rem;
+  color: #858585;
+}
+
+.donate_amt {
+  background-color: #eee;
+  padding: 0.6rem;
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin: 0.6rem;
+}
+
+.donate_amt_brown {
+  background-color: #d44444;
+  padding: 0.6rem;
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 0.6rem;
+}
+
+.donate_input_lable {
+  font-size: 1.5rem;
+  color: #575757;
+}
+
+.donar_input_pay {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #d44444;
+}
+
+.donar_input_pay::placeholder {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.donar_pay {
+  background-color: #5caf43;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.blog_date {
+  font-size: 1.4rem;
+}
+
+.blog_side_head {
+  font-size: 2.2rem !important;
+}
+
+.blog_sidetag {
+  font-size: 1.3rem;
+  color: #d44444 !important;
+}
+
+.blog_sidetitle {
+  font-weight: 600;
+}
+
+.adopt_input_search {
+  font-size: 2.7rem;
+}
+
+.adopt_input_search::placeholder {
+  font-size: 1.7rem;
+}
+
+.adopt_search_btn {
+  background-color: #f39933;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.petinfo_card {
+  border: 1px solid #c4c4c4;
+  box-shadow: 0px 1px 2px #cacaca;
+  background-color: #fafafa;
+  padding: 0.2rem;
+  border-radius: 3px;
+}
+
+.petinfo_card h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1.2rem 1.2rem 0.5rem 1rem;
+  margin: 0.1rem;
+}
+
+.petinfo_card p {
+  font-size: 1.5rem;
+  padding: 0.3rem 1rem !important;
+  margin: 0.1rem;
+}
+
+.petinfo_card:hover {
+  border: 1px solid #d44444;
+}
+
+.petinfo_card_status {
+  font-weight: 600;
+  color: #197a16;
+}
+
+.petinfo_card_img {
+  width: 100%;
+}
+
+.detail_heads {
+  color: #d44444;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-right: 1.3rem;
+}
+
+.detail_heads_hgl {
+  font-weight: 600;
+  color: #2450ad;
+}
+
+.bq_hg {
+  background-color: #d44444;
+  color: #fff;
+  padding: 1.2rem;
+}
+
+.breed_about {
+  background-color: #fdf9f9;
+  padding: 5rem 0rem;
+}
+
+.breed_section_left {
+  padding: 3rem 4rem;
+}
+
+.breed_section_left h2 {
+  color: #d44444;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+.breed_section_left p {
+  color: #5f5a5a;
+}
+
+.breed_section_right {
+  padding: 5rem 0rem;
+}
+
+.tranning_side_links {
+  list-style-type: none;
+  padding: 0.8rem 0rem;
+  border-bottom: 2px solid #eee;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding-left: 1.3rem;
+  margin-bottom: 0.6rem;
+  transition: all 0.2s ease;
+}
+
+.tranning_side_links:hover {
+  color: #d44444;
+}
+
+.tranning_page_head {
+  background-color: #d44444;
+  color: #fff;
+  padding: 1.8rem 2.6rem;
+  border-radius: 3px;
+}
+
+.tranning_card img {
+  height: 20rem;
+}
+
+.tranning_card_p {
+  font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .m_hide {
+    display: none;
+  }
+}
+
+.client_dashboard {
+  padding: 1rem;
+}
+
+.client_dashboard li {
+  list-style-type: none;
+  padding: 1rem 0.2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.client_dashboard li a {
+  text-decoration: none;
+  color: #d44444;
+}
+
+.my_dogs_available {
+  color: #1b5e13;
+}
+
+.my_dogs_adopted {
+  color: #d44444;
+}
+
+.my_dogs_edit {
+  color: #d44444;
+  font-size: 1.6rem;
+}
+
+.preview {
+  height: 8rem;
+  background-color: white;
+  border: 1px dashed #eee;
+  font-size: 1.6rem;
+}
+
+.choose {
+  width: 10rem;
+  font-size: 1.2rem;
+}
+
+.client_slide_links {
+  background-color: #f7f7f7;
+  color: #5a5a5a;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid #acacac;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.client_slide_links_active {
+  background-color: #d44444;
+  color: white;
+  border-bottom: 3px solid #d44444;
+}
+
+.client_h3 {
+  background-color: #eee;
+  padding: .9rem;
+  font-size: 1.8rem;
+}
+
+.wtg_img {
+  width: 100%;
+  height: 40rem;
+}
+
+.wtg_link {
+  color: #d44444;
+  line-height: 1.5;
+}
+
+.wtg_link:hover {
+  color: #d44444;
+}
+
+ul {
+  padding-left: 1rem !important;
+}
+
+.about_pet {
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 1px 2px #d4d4d4;
+}
+
+.about_pet_fimg {
+  width: 100%;
+}
+
+.about_pet_subimg {
+  width: 100%;
+  border: 1px solid #dfdfdf;
+  padding: 0.2rem;
+  height: 8rem;
+}
+
+.about_pet_point ul li {
+  list-style-type: none;
+}
+
+.about_pet_point_li {
+  padding-right: 0.8rem;
+  font-weight: 600;
+}
+
+.somemore_pets {
+  background-color: whitesmoke;
+  border: 1px solid #cacaca;
+  padding: 2.5rem 2rem;
+}
+
+.adopt_me_btn {
+  background-color: #d44444;
+  padding: 0.6rem;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 2rem;
+  border: none;
+  transition: all 0.2 ease;
+}
+
+.adopt_me_btn:hover {
+  background-color: #bd3838;
+}
+
+.legal_heading_h2 {
+  text-decoration: underline;
+}
+
+.fc_underline {
+  border-bottom: 4px solid #d44444;
+  padding-bottom: 1rem;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.fc_options_h1 {
+  color: #d44444;
+}
+
+.fc_banner {
+  background-color: #d44444;
+  background-image: linear-gradient(rgba(212, 68, 68, 0.808), rgba(212, 68, 68, 0.801)), url("/images/pattern2@2x.png");
+}
+
+.fc_banner_color {
+  color: #fff;
+}
+
+.writetous {
+  border: 1px dashed #d44444;
+  padding: 5rem;
+  border-radius: 5px;
+}
+
+.franchies_form {
+  width: 100%;
+}
+
+.nande {
+  padding: 3rem 0.5rem;
+}
+
+.nande p {
+  padding: 0.2rem;
+  margin: 0 !important;
+}
+
+.nande p span {
+  font-size: 1.4rem;
+}
+
+.nande a {
+  text-decoration: none;
+  color: #d44444;
+}
+
+.nande h3 {
+  color: #2f2f2f;
+  font-weight: 600;
+  padding: 0.4rem 0;
+  line-height: 2.7rem;
+}
+
+.nande_main {
+  padding: 1rem;
+}
+
+.nande_main h3 {
+  font-size: 2.8rem;
+}
+
+.nande_img_sub {
+  width: 100%;
+  height: 12rem;
+  border: 7px solid #d44444;
+}
+
+.nande_img_main {
+  width: 100%;
+  height: 40rem;
+  border: 7px solid #d44444;
+}
+
+.nande_link {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .nande_img_main {
+    height: 29rem;
+  }
+  .nande_main h3 {
+    font-size: 2.5rem;
+  }
+}
+
+.contactus {
+  background-color: #f8f8f8;
+}
+
+.footer {
+  min-height: 40vh;
+  background-color: #d44444;
+  padding: 3rem 1rem 3rem 1rem;
+}
+
+.footer p {
+  color: #fff;
+}
+
+.footer_headings {
+  font-size: 1.8rem;
+  color: #fff;
+  border-bottom: 2px solid #f39933;
+  width: 60%;
+}
+
+.footer_pages {
+  list-style-type: none;
+}
+
+.footer_pages a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.footerTag_Line {
+  background-color: #f39933;
+  color: #fff;
+}
+
+.footerTag_copyright {
+  background-color: #2f2f2f;
+  color: #fff;
+  padding: 0.3rem;
+}
+
+.footerTag_copyright p {
+  font-size: 1.4rem;
+}
+
+.footerbtn {
+  border: none;
+  background-color: #f39933;
+  border-radius: 3px;
+  padding: 0.6rem;
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
+.footerbtn:hover {
+  background-color: #e78a1f;
+}
+
+@media only screen and (max-width: 780px) {
+  .m_hide {
+    display: none;
+  }
+  .m_display {
+    display: block;
+  }
+}
+/*# sourceMappingURL=main.css.map */

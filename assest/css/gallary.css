@@ -1,0 +1,130 @@
+.about_brad {
+    width: 100%;
+    height: auto;
+    padding: 5rem 0rem;
+    background-image: url(../../assest/images/gallary_bg4.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 10%) !important;
+}
+
+.about_brad h2 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+
+.about_brad p,a {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration:none;
+}  
+.about_brad a:hover{
+    color:#ffffff;
+    text-decoration:none;
+}
+.main_gallary{
+    width:100%;
+    height:auto;
+    padding:4rem 0rem;
+    background-color:#ffffff;
+} 
+.main_gallary h1{
+    color:#7f7f7f;
+    font-weight:400;
+    font-size:40px;
+    text-align:center;
+}
+.main_gallary .colo_cng{
+    color:#1876bf;
+    font-weight:600;
+}
+.main_gallary .main_portfolio_new{
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+}
+.main_gallary .main_portfolio_new .nab_tab_new{
+    margin: 0 !important;
+    border-bottom: none !Important;
+}
+.main_gallary .main_portfolio_new .nab_tab_new .nab_tab_listvvv button{
+    width: 100%;
+    height: auto;
+    margin: 0 !Important;
+    border-radius: 0 !important;
+    font-size: 16px !Important;
+    color: #252525;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 4px 10px 0 rgb(0 0 0/10%);
+    box-shadow: 0px 4px 10px 0 rgb(0 0 0/10%);
+    border-color: transparent;
+    border: none;
+    outline: none;
+}
+.main_gallary .main_portfolio_new .nab_tab_new .nab_tab_listvvv .active{
+    background-color: #1876bf;
+    color: #fff !important;
+}
+.main_gallary .main_portfolio_new .min_tab_content{
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+}
+.main_gallary .main_portfolio_new .min_tab_content .card_padd{
+    padding: 3px !Important;
+}
+.main_gallary .main_portfolio_new .min_tab_content img{
+    width: 100%;
+    height: 250px !important;
+}
+
+.modal-content{
+    border:none !important;
+    border-radius:0px !important;
+}
+.close_buttt{
+    position: absolute !important;
+    right: 0 !important;
+    background-color: #1876bf !important;
+    color: #fff !important;
+    outline: none !important;
+    padding: 9px 15px !important;
+    opacity: 1 !important;
+    font-size: 15px !important;
+    border: 1px solid #fff !important;
+    top: 0 !important;
+}
+
+@media only screen and (min-width: 576px) {
+    .modal-dialog{
+        max-width:1000px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .modal-dialog{
+        margin-top:40% !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about_brad{
+        padding: 2rem 0rem;
+    }
+    .about_brad h2{
+        font-size:30px;
+    }
+    .about_brad p{
+        font-size:15px;
+    }
+    .main_gallary h1{
+        font-size: 25px;
+    }
+}

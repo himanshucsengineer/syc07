@@ -1,0 +1,101 @@
+// Spacer
+
+//Padding
+
+//Margin
+
+.d_hide {
+  display: none;
+}
+
+.col_fff {
+  color: #fff !important;
+}
+
+.spacer {
+  padding: 3rem;
+}
+.spacer_m {
+  padding: 2rem;
+}
+.spacer_s {
+  padding: 1.3rem;
+}
+
+.bod {
+  border: 1px solid red;
+}
+
+ul {
+  margin-left: 1.2rem;
+}
+
+.base_input {
+  font-size: 2rem;
+  outline: #eee;
+  border: 1px solid rgb(190, 190, 190);
+}
+
+.base_input::placeholder {
+  font-size: 1.5rem;
+}
+
+// Btns
+.brown_btn {
+  background-color: $dbrown;
+  color: #fff;
+  font-size: 1.9rem;
+  border: none;
+  padding: 0.8rem;
+  transition: all 0.2s ease;
+}
+
+.brown_btn:hover {
+  background-color: rgb(194, 58, 58);
+}
+
+.yellow_btn {
+  background-color: $dyellow;
+  color: #fff;
+  font-size: 1.9rem;
+}
+
+.fbtn {
+  border: none;
+  background-color: $dbrown;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 1rem;
+  border-radius: 4px;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.fbtn:hover {
+  background-color: #be3636;
+}
+
+//  All Ancors
+.nodecoration {
+  text-decoration: none !important;
+  color: $fontblack !important;
+}
+
+.nodecoration:hover {
+  text-decoration: none !important;
+  color: $fontblack !important;
+}
+
+.nospacing {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.modal_head {
+  color: $dbrown;
+}
+
+.lstn {
+  list-style-type: none;
+  padding: 0.6rem 1rem;
+}

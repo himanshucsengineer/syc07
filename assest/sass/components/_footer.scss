@@ -1,0 +1,52 @@
+.footer {
+  min-height: 40vh;
+  background-color: $dbrown;
+  padding: 3rem 1rem 3rem 1rem;
+
+  p {
+    color: #fff;
+  }
+}
+
+.footer_headings {
+  font-size: 1.8rem;
+  color: #fff;
+  border-bottom: 2px solid $dyellow;
+  width: 60%;
+}
+
+.footer_pages {
+  list-style-type: none;
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+  }
+}
+
+.footerTag_Line {
+  background-color: $dyellow;
+  color: #fff;
+}
+
+.footerTag_copyright {
+  background-color: $fontblack;
+  color: #fff;
+  padding: 0.3rem;
+  p {
+    font-size: 1.4rem;
+  }
+}
+
+.footerbtn {
+  border: none;
+  background-color: $dyellow;
+  border-radius: 3px;
+  padding: 0.6rem;
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
+.footerbtn:hover {
+  background-color: #e78a1f;
+}

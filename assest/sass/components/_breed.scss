@@ -1,0 +1,40 @@
+.detail_heads {
+  color: $dbrown;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-right: 1.3rem;
+}
+
+.detail_heads_hgl {
+  font-weight: 600;
+  // font-size: 2.5rem;
+  color: rgb(36, 80, 173);
+}
+
+.bq_hg {
+  background-color: $dbrown;
+  color: #fff;
+  padding: 1.2rem;
+}
+
+.breed_about {
+  background-color: rgb(253, 249, 249);
+  padding: 5rem 0rem;
+}
+
+.breed_section_left {
+  padding: 3rem 4rem;
+
+  h2 {
+    color: $dbrown;
+    font-weight: 700;
+    font-size: 3.5rem;
+  }
+  p {
+    color: rgb(95, 90, 90);
+  }
+}
+
+.breed_section_right {
+  padding: 5rem 0rem;
+}
