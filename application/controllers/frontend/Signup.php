@@ -7,8 +7,12 @@ class Signup extends CI_controller{
   }
 
   public function index(){
+    
+
     $this->load->view('frontend/template/header');
-    $this->load->view('frontend/signup');
+        $this->load->view('frontend/template/navbar');
+        $this->load->view('frontend/signup');
+        $this->load->view('frontend/template/footer');
   }
   
   public function create(){
@@ -98,7 +102,7 @@ class Signup extends CI_controller{
 
       if($userdata == Array()){
         $this->session->set_flashdata('error', 'User Not Found!');
-        redirect(base_url() . 'user/signup');
+        redirect(base_url() . 'user/login');
       }else{
 
         foreach($userdata as $value){
@@ -114,7 +118,7 @@ class Signup extends CI_controller{
 
     }else{
       $this->session->set_flashdata('error', 'Please Fill All the fields!');
-      redirect(base_url() . 'user/signup');
+      redirect(base_url() . 'user/login');
     }
 
   }

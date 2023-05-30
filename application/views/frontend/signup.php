@@ -1,294 +1,156 @@
+
+
+
+
+
+
 <style>
-* {
-  margin: 0px;
-  padding: 0px;
-  ;
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
 }
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
+.h-custom {
+height: calc(100% - 73px);
 }
-
-.container {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  background-color: red;
-  background: linear-gradient(to bottom, rgb(6, 108, 100), rgb(14, 48, 122));
-  /* width: 800px; */
-  height: 550px;
-  /* margin: 10% auto; */
-  padding: 0px;
-  border-radius: 5px;
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
 }
-
-.content-holder {
-  text-align: center;
-  color: white;
-  font-size: 14px;
-  font-weight: lighter;
-  letter-spacing: 2px;
-  margin-top: 15%;
-  padding: 50px;
-}
-
-.content-holder h2 {
-  font-size: 34px;
-  margin: 20px auto;
-}
-
-.content-holder p {
-  margin: 30px auto;
-}
-
-.content-holder button {
-  border: none;
-  font-size: 15px;
-  padding: 10px;
-  border-radius: 6px;
-  background-color: white;
-  width: 150px;
-  margin: 20px auto;
-}
-
-
-.box-2 {
-  background-color: white;
-
-  margin: 5px;
-}
-
-.login-form-container {
-  text-align: center;
-  margin-top: 10%;
-  padding: 1rem;
-}
-
-.login-form-container h1 {
-  color: black;
-  font-size: 24px;
-  padding: 20px;
-}
-
-.input-field {
-  box-sizing: border-box;
-  font-size: 14px;
-  padding: 10px;
-  border-radius: 7px;
-  border: 1px solid rgb(168, 168, 168);
-  width: 100%;
-  outline: none;
-  margin-bottom: 1rem;
-  outline: none;
-}
-
-.login-button {
-  box-sizing: border-box;
-  color: white;
-  font-size: 14px;
-  padding: 13px;
-  border-radius: 7px;
-  border: none;
-  width: 250px;
-  outline: none;
-  background-color: rgb(56, 102, 189);
-}
-
-
-
-.button-2 {
-  display: none;
-}
-
-
-
-
-
-.signup-form-container {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -60%);
-  text-align: center;
-  display: none;
-  width: 100%;
-  padding: 1rem;
-}
-
-
-.signup-form-container h1 {
-  color: black;
-  font-size: 24px;
-  padding: 20px;
-}
-
-.signup-button {
-  box-sizing: border-box;
-  color: white;
-  font-size: 14px;
-  padding: 13px;
-  border-radius: 7px;
-  border: none;
-  width: 250px;
-  outline: none;
-  background-color: rgb(56, 189, 149);
-}
-
-.login_signup_form {
-  width: 100%;
-  height: auto;
-  padding: 4rem 0rem;
-}
-
-@media screen and (max-width: 600px) {
-  .container {
-    display: grid;
-    grid-template-columns: none;
-  }
-
-  .login_signup_form {
-    padding: 0rem;
-    margin-top: -4rem;
-  }
 }
 </style>
 
 
-<?php
+
+<section class="mt-5 mb-5">
+  <div class="container-fluid h-custom">
+  <?php
         if ($this->session->flashdata('success')) {
             echo '<div class="alert alert-success">' . $this->session->flashdata('success') . '</div>';
+            unset($_SESSION['success']);
         } else if ($this->session->flashdata('error')) {
             echo '<div class="alert alert-danger">' . $this->session->flashdata('error') . '</div>';
+            unset($_SESSION['error']);
         }
         ?>
-<div class="login_signup_form">
-  <div class="container">
-    <!--Data or Content-->
-
-    <div class="box-1">
-      <div class="content-holder">
-        <h2>Hello!</h2>
-
-        <button class="button-1" onclick="signup()">Sign up</button>
-        <button class="button-2" onclick="login()">Login</button>
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-md-9 col-lg-4 col-xl-4">
+        <img src="<?php echo base_url()?>assest/images/draw2.webp"
+          class="img-fluid" alt="Sample image">
       </div>
-    </div>
-
-
-    <!--Forms-->
-    <div class="box-2">
-      <div class="login-form-container">
-        <h1>Login Form</h1>
-        <form action="<?php echo base_url()?>frontend/signup/login" method="post">
-          <div class="row">
-            <div class="col-md-12">
-              <input type="text" name="email" placeholder="Email" class="input-field">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <input type="password" name="password" placeholder="Password" class="input-field">
-            </div>
-          </div>
-          <button class="login-button">Login</button>
-        </form>
-      </div>
-
-
-      <!--Create Container for Signup form-->
-      <div class="signup-form-container">
-        <h1>Sign Up Form</h1>
+      <div class="col-md-8 col-lg-8 col-xl-8 offset-xl-1">
         <form action="<?php echo base_url()?>frontend/signup/create" method="post" enctype="multipart/form-data">
+
+
           <div class="row">
             <div class="col-md-6">
-              <input type="text" name="name" placeholder="Full Name" class="input-field">
+              <div class="form-outline mb-4">
+                <label class="form-label" for="form3Example3">Name</label>
+                <input type="text" name="name" id="form3Example3" class="form-control form-control-lg" placeholder="Enter Full Name" />
+              </div>
             </div>
             <div class="col-md-6">
-              <input type="email" name="email" placeholder="Email" class="input-field">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <input type="number" name="number" placeholder="Number" class="input-field">
-            </div>
-            <div class="col-md-6">
-              <input type="text" name="aadhar" placeholder="Adhar card Number" class="input-field">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <input type="date" name="dob" placeholder="" class="input-field">
-            </div>
-            <div class="col-md-6">
-              <select class="input-field" name="gender">
-                <option value="">Select Gender</option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="other">Others</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <input type="file" name="images" placeholder="Email" class="input-field">
-            </div>
-            <div class="col-md-6">
-              <textarea name="address" id="" cols="30" rows="1" class="input-field"
-                placeholder="Enter Address"></textarea>
+              <div class="form-outline mb-4">
+                <label class="form-label" for="form3Example3">Email address</label>
+                <input type="email" name="email" id="form3Example3" class="form-control form-control-lg" placeholder="Enter a valid email address" />
+              </div>
             </div>
           </div>
 
           <div class="row">
             <div class="col-md-6">
-              <select class="input-field" name="country">
-                <option value="">Select Country</option>
-                <option value="India">India</option>
-              </select>
+              <div class="form-outline mb-4">
+                <label class="form-label" for="form3Example3">Number</label>
+                <input type="number" name="number" id="form3Example3" class="form-control form-control-lg" placeholder="Enter Mobile Number" />
+              </div>
             </div>
             <div class="col-md-6">
-              <input type="text" name="refer" placeholder="Reffral Code" class="input-field">
+              <div class="form-outline mb-4">
+                <label class="form-label" for="form3Example3">Date Of Birth</label>
+                <input type="date" name="dob" id="form3Example3" class="form-control form-control-lg" placeholder="Enter Date Of Birth" />
+              </div>
             </div>
           </div>
 
           <div class="row">
             <div class="col-md-6">
-              <input type="password" name="password" placeholder="Password" class="input-field">
+              <div class="form-outline mb-4">
+                <label class="form-label" for="form3Example3">Gender</label>
+                <select name="gender" id="" id="form3Example3" class="form-control form-control-lg">
+                  <option value="">Select Gender</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Others</option>
+                </select>
+              </div>
             </div>
             <div class="col-md-6">
-              <input type="text" name="confirm_password" placeholder="Confirm Password" class="input-field">
+              <div class="form-outline mb-4">
+                <label class="form-label" for="form3Example3">Aadhar Number</label>
+                <input type="text" id="form3Example3" name="aadhar" class="form-control form-control-lg" placeholder="Enter Aadhar Number" />
+              </div>
             </div>
           </div>
-          <button class="signup-button">Next</button>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-outline mb-4">
+                <label class="form-label" for="form3Example3">Candidate Photo</label>
+                <input type="file" id="form3Example3"  name="images" class="form-control form-control-lg" placeholder="Enter Full Name" />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-outline mb-4">
+                <label class="form-label" for="form3Example3">Address</label>
+                <input type="text" id="form3Example3" name="address" class="form-control form-control-lg" placeholder="Enter Address" />
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-outline mb-4">
+                <label class="form-label" for="form3Example3">Country</label>
+                <select name="country" id="" id="form3Example3" class="form-control form-control-lg">
+                  <option value="">Select Country</option>
+                  <option value="india">India</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-outline mb-4">
+                <label class="form-label" for="form3Example3">Reffral Code</label>
+                <input type="text" id="form3Example3" name="refer" class="form-control form-control-lg" placeholder="Enter Refferal Code" />
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-outline mb-3">
+                <label class="form-label" for="form3Example4">Password</label>
+                <input type="password" id="form3Example4" name="password" class="form-control form-control-lg" placeholder="Enter password" />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-outline mb-3">
+                <label class="form-label" for="form3Example4">Confirm Password</label>
+                <input type="password" id="form3Example4" name="confirm_password" class="form-control form-control-lg" placeholder="Enter confirm password" />
+              </div>
+            </div>
+          </div>
+          <div class="text-center text-lg-start mt-4 pt-2">
+            <button  class="btn btn-primary btn-lg"
+              style="padding-left: 2.5rem; padding-right: 2.5rem;">Next</button>
+            <p class="small fw-bold mt-2 pt-1 mb-0">Already have an account? <a href="<?php echo base_url()?>user/login"
+                class="link-danger">Login</a></p>
+          </div>
         </form>
       </div>
-
-
-
     </div>
   </div>
 
-
-
-
-
-
-  <script>
-  function signup() {
-    document.querySelector(".login-form-container").style.cssText = "display: none;";
-    document.querySelector(".signup-form-container").style.cssText = "display: block;";
-    document.querySelector(".container").style.cssText =
-      "background: linear-gradient(to bottom, rgb(56, 189, 149),  rgb(28, 139, 106));";
-    document.querySelector(".button-1").style.cssText = "display: none";
-    document.querySelector(".button-2").style.cssText = "display: block";
-
-  };
-
-  function login() {
-    document.querySelector(".signup-form-container").style.cssText = "display: none;";
-    document.querySelector(".login-form-container").style.cssText = "display: block;";
-    document.querySelector(".container").style.cssText =
-      "background: linear-gradient(to bottom, rgb(6, 108, 224),  rgb(14, 48, 122));";
-    document.querySelector(".button-2").style.cssText = "display: none";
-    document.querySelector(".button-1").style.cssText = "display: block";
-
-  }
-  </script>
+</section>

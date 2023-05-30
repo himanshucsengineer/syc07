@@ -58,4 +58,24 @@ class Signupmodel extends CI_Model
         $this->db->where('id', $userid);
         $this->db->update('user', $updatebonus);
     }
+
+
+
+    function update_pro($data, $id){
+        $this->db->set($data);
+        $this->db->where('id', $id);
+        $this->db->update('user', $data);
+    }
+
+    function update_websetting($data, $id){
+      $this->db->set($data);
+      $this->db->where('id', $id);
+      $this->db->update('websetting', $data);
+  }
+
+  function update_rozarpaysetting($data, $id){
+    $this->db->set($data);
+    $this->db->where('id', $id);
+    $this->db->update('rozarpay', $data);
+}
 }

@@ -1,4 +1,36 @@
- <!-- ======= Sidebar ======= -->
+
+
+ <style>
+.sidebar{
+  border:1px solid #cdcdcd;
+  padding:0px !important;
+  padding-top:0rem !important;
+}
+.sidebar-nav .nav-item{
+  margin-bottom:0px !important;
+  border-bottom:1px solid #cdcdcd;
+  transition:.5s;
+}
+.sidebar-nav .nav-link{
+  color:#3e515a !important;
+  transition:.5s;
+}
+.sidebar-nav .nav-link:hover{
+  color:#0dcaf0 !important;
+}
+.sidebar-nav .nav-link i{
+  color:#3e515a !important;
+  transition:.5s;
+}
+.sidebar-nav .nav-link i:hover{
+  color:#0dcaf0 !important;
+}
+.sidebar-nav .nav-item:hover{
+  padding-left:20px !important;
+}
+</style>
+
+
  <aside id="sidebar" class="sidebar">
 
    <ul class="sidebar-nav" id="sidebar-nav">
@@ -54,6 +86,16 @@
      <li class="nav-item">
        <a class="nav-link " href="<?php echo base_url()?>user/withdrawinsurance">
          <i class="bi bi-menu-button-wide"></i><span>Withdraw Insurance</span>
+       </a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link " href="<?php echo base_url()?>user/my-orders">
+         <i class="bi bi-menu-button-wide"></i><span>My Orders</span>
+       </a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link " href="<?php echo base_url()?>user/order-transaction">
+         <i class="bi bi-menu-button-wide"></i><span>Order Transactions</span>
        </a>
      </li>
      <!-- <li class="nav-item">

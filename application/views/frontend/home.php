@@ -96,12 +96,12 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h2>Welcome to Syc07</h2>
-          <p>Syc07 (Safe Your choice) is a Professional multi level marketing Platform. Here we will provide you only
-            interesting content, which you will like very much. We're dedicated to providing you the best of multi level
+          <h2>Welcome to Paramount07</h2>
+          <p>Paramount07 is a Professional Affilate marketing Platform. Here we will provide you only
+            interesting content, which you will like very much. We're dedicated to providing you the best of Affilate
             marketing, with a focus on dependability and refer and earn , pension, bonus, insurance. </p>
-          <p> We're working to turn our passion for multi level marketing into a booming online website.</p>
-          <p>We hope you enjoy our multi level marketing as much as we enjoy offering them to you.</p>
+          <p> We're working to turn our passion for Affilate marketing into a booming online website.</p>
+          <p>We hope you enjoy our Affilate marketing as much as we enjoy offering them to you.</p>
 
 
           <a href="<?php echo base_url()?>about-us"><button>Know More</button></a>
@@ -110,6 +110,16 @@
           <img src="<?php echo base_url()?>assest/images/home_about.jpg">
         </div>
       </div>
+    </div>
+  </div>
+
+  <div class="get_in_touch_section">
+    <div class="container">
+      <h2>Need to know More or have any query?</h2>
+      <div class="text-center">
+        <a href="<?php echo base_url()?>contact-us"><button>Contact us</button></a>
+      </div>
+
     </div>
   </div>
 
@@ -155,7 +165,7 @@
     </div>
   </div>
 
-  <div class="home_blog_main">
+  <!-- <div class="home_blog_main">
     <div class="container">
       <div class="heading_flex">
         <div class="left">
@@ -214,17 +224,9 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <div class="get_in_touch_section">
-    <div class="container">
-      <h2>Need to know More or have any query?</h2>
-      <div class="text-center">
-        <a href="<?php echo base_url()?>contact-us"><button>Contact us</button></a>
-      </div>
-
-    </div>
-  </div>
+  
 
   <div class="home_blog_main">
     <div class="container">

@@ -90,12 +90,6 @@ $parts = basename($url);
           Update Website
         </div>
 
-
-
-
-
-
-
         <li class="nav-item ">
           <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#gallary" aria-expanded="true"
             aria-controls="collapsePages">
@@ -114,19 +108,6 @@ $parts = basename($url);
             </div>
           </div>
         </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
         <li class="nav-item ">
           <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#news" aria-expanded="true"
             aria-controls="collapsePages">
@@ -145,7 +126,7 @@ $parts = basename($url);
             </div>
           </div>
         </li>
-        <li class="nav-item ">
+        <!-- <li class="nav-item ">
           <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePagesss"
             aria-expanded="true" aria-controls="collapsePages">
             <i class="fas fa-fw fa-folder"></i>
@@ -162,7 +143,7 @@ $parts = basename($url);
               <div class="collapse-divider"></div>
             </div>
           </div>
-        </li>
+        </li> -->
 
         <li class="nav-item ">
           <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#Breed" aria-expanded="true"
@@ -198,6 +179,16 @@ $parts = basename($url);
         <li class="nav-item <?php echo ($parts == 'contactdata') ? "active" : "" ?>">
           <a class="nav-link " href="<?php echo base_url(); ?>admin/contactdata"><i
               class="fas fa-fw fa-table"></i><span>Contact Data</span></a>
+        </li>
+
+        <li class="nav-item <?php echo ($parts == 'websetting') ? "active" : "" ?>">
+          <a class="nav-link " href="<?php echo base_url(); ?>admin/websetting"><i
+              class="fas fa-fw fa-table"></i><span>Web Setting</span></a>
+        </li>
+
+        <li class="nav-item <?php echo ($parts == 'rozarpaysetting') ? "active" : "" ?>">
+          <a class="nav-link " href="<?php echo base_url(); ?>admin/rozarpaysetting"><i
+              class="fas fa-fw fa-table"></i><span>Rozarpay Setting</span></a>
         </li>
         <!-- <li class="nav-item <?php echo ($parts == 'donation') ? "active" : "" ?>">
           <a class="nav-link " href="<?php echo base_url(); ?>admin/donation"><i

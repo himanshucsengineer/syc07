@@ -9,7 +9,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>MLM website</title>
+        <title>Paramount07</title>
 
         <!-- Custom fonts for this template -->
         <link href="<?php echo base_url(); ?>admin/assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">

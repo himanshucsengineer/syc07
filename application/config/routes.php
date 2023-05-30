@@ -17,10 +17,14 @@ $route['blogs'] = 'frontend/blog';
 $route['blog/(:any)'] = 'frontend/viewblog/index/$1';
 
 $route['user/signup'] = 'frontend/signup';
-$route['create/agreecondition'] = 'frontend/agreecondition';
+$route['user/login'] = 'frontend/login';
 
+$route['create/agreecondition'] = 'frontend/agreecondition';
+$route['user/buy-product/(:any)'] = 'frontend/user/buyproduct/index/$1';
 
 $route['user/dashboard'] = 'frontend/user/dashboard';
+$route['user/my-orders'] = 'frontend/user/myorder';
+$route['user/order-transaction'] = 'frontend/user/ordertransaction';
 $route['user/profile'] = 'frontend/user/profile';
 $route['user/pension'] = 'frontend/user/pension';
 $route['user/bonus'] = 'frontend/user/bonus';

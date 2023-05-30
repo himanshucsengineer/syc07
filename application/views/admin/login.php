@@ -7,7 +7,7 @@
           <meta name="description" content="">
           <meta name="author" content="">
 
-          <title>Welcome to MLM</title>
+          <title>Welcome to Paramount07</title>
           <link href="<?php echo base_url(); ?>admin/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
           <link href="<?php echo base_url(); ?>admin/assets/css/core.css" rel="stylesheet" type="text/css" />
           <link href="<?php echo base_url(); ?>admin/assets/css/components.css" rel="stylesheet" type="text/css" />
@@ -48,7 +48,7 @@
             <div class=" card-box card_box_custom">
               <div class="panel-heading">
                 <h3 class="text-center"> <img style="width: 100%;"
-                    src="<?php echo base_url(); ?>assest/images/logo2.jpeg" class="logo_head" /></h3>
+                    src="<?php echo base_url(); ?>assest/images/paramount.png" class="logo_head" /></h3>
               </div>
               <div class="panel-body">
                 <?php
@@ -118,7 +118,7 @@
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-info setForgetSubmit">Send</button />
+                    <button type="submit" class="btn btn-info setForgetSubmit">Send</button >
                   </div>
                 </div>
               </form>

@@ -20,7 +20,7 @@
 
     <div class="d-flex align-items-center justify-content-between">
       <a href="<?php echo base_url()?>" class="logo d-flex align-items-center">
-        <img src="<?php echo base_url()?>assest/images/logo2.jpeg" width="100px" alt="">
+        <img src="<?php echo base_url()?>assest/images/paramount.png" width="100px" alt="">
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i>
     </div><!-- End Logo -->
@@ -41,7 +41,7 @@
 
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
             <li>
-              <a class="dropdown-item d-flex align-items-center" href="<?php echo base_url()?>user/profil">
+              <a class="dropdown-item d-flex align-items-center" href="<?php echo base_url()?>user/profile">
                 <i class="bi bi-person"></i>
                 <span>My Profile</span>
               </a>

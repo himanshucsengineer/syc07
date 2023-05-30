@@ -1,6 +1,14 @@
 <link rel="stylesheet" href="<?php echo base_url()?>assest/css/contact.css">
 </head>
+<?php $setting_data = $this->db->get('websetting')->result_array();
 
+  foreach($setting_data as $setting){
+    $webemail = $setting['email'];
+    $webnumber = $setting['number'];
+    $webaddress = $setting['address'];
+  }
+
+?>
 <body>
   <?php $this->load->view('frontend/template/navbar')?>
 
@@ -16,8 +24,11 @@
       <?php
         if ($this->session->flashdata('success')) {
             echo '<div class="alert alert-success">' . $this->session->flashdata('success') . '</div>';
+            unset($_SESSION['success']);
         } else if ($this->session->flashdata('error')) {
             echo '<div class="alert alert-danger">' . $this->session->flashdata('error') . '</div>';
+            unset($_SESSION['error']);
+            
         }
         ?>
       <form action="<?php echo base_url()?>frontend/contact/insert_data" method="post">
@@ -58,9 +69,9 @@
           <div class=" contact_main_details_card_inner ">
             <i class="fas fa-phone"></i>
             <h2>Contact Us</h2>
-            <p><span class="bllbb">Phone:</span> +91 9319785848</p>
+            <p><span class="bllbb">Phone:</span> +91 <?php echo $webnumber?></p>
 
-            <p><span class="bllbb">Email:</span> info@badaengineering.com</p>
+            <p><span class="bllbb">Email:</span> <?php echo $webemail?></p>
           </div>
         </div>
         <!-- <div class=" contact_main_details_card">
