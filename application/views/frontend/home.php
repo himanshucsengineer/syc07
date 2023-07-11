@@ -26,7 +26,7 @@
                   <h2>Solution to a better life</h2>
                 </div>
                 <div data-swiper-parallax="400" class="slide-text">
-                  <p>Safe Your Choice was formed to provide every person with the opportunity to create financial
+                  <p>Paramount07 was formed to provide every person with the opportunity to create financial
                     freedom
                     while living an amazing lifestyle</p>
                 </div>
@@ -47,7 +47,7 @@
                   <h2>Solution to a better life</h2>
                 </div>
                 <div data-swiper-parallax="400" class="slide-text">
-                  <p>Safe Your Choice was formed to provide every person with the opportunity to create financial
+                  <p>Paramount07 was formed to provide every person with the opportunity to create financial
                     freedom
                     while living an amazing lifestyle</p>
                 </div>
@@ -68,7 +68,7 @@
                   <h2>Solution to a better life</h2>
                 </div>
                 <div data-swiper-parallax="400" class="slide-text">
-                  <p>Safe Your Choice was formed to provide every person with the opportunity to create financial
+                  <p>Paramount07 was formed to provide every person with the opportunity to create financial
                     freedom
                     while living an amazing lifestyle</p>
                 </div>

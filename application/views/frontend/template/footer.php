@@ -77,7 +77,7 @@
       </div>
     </div>
     <hr class="style2">
-    <h6>@2021 Paramount07 ALL RIGHTS RESERVED and Developed by <a href="https://eniacoder.com/" target="_blank">ENIACODER</a>
+    <h6>@2021 Paramount07 ALL RIGHTS RESERVED 
     </h6>
   </div>
 </div>

@@ -76,9 +76,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost:3308',
-	'username' => 'root',
-	'password' => '',
+	// 'hostname' => 'localhost:3308',
+	'hostname' => 'syc07.c45xky55orft.ap-south-1.rds.amazonaws.com',
+	'username' => 'himanshu',
+	'password' => 'Himanshu1',
 	'database' => 'syc07',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
