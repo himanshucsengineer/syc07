@@ -15,8 +15,8 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-        <h5>Paramount07</h5>
-        <p>Paramount07 is a Professional Affilate marketing Platform. Here we will provide you only
+        <h5>Syc07</h5>
+        <p>Syc07 (Safe your choice) is a Professional Affilate marketing Platform. Here we will provide you only
           interesting content, which you will like very much. We're dedicated to providing you the best of Affilate
     
       </div>
@@ -24,7 +24,7 @@
         <h5>Important Links</h5>
         <div class="links">
           <a href="<?php echo base_url()?>privacy-policy">Privacy-Policy</a></br>
-          <a href="<?php echo base_url()?>refund-policy">Refund & Cancellation</a></br>
+          <!-- <a href="<?php echo base_url()?>refund-policy">Refund & Cancellation</a></br> -->
           <a href="<?php echo base_url()?>term">Term & Conditions</a></br>
           <a href="<?php echo base_url()?>about-us">About Us</a></br>
           <a href="<?php echo base_url()?>contact-us">Contact us</a></br>
