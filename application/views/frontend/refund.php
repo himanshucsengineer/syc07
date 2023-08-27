@@ -4,14 +4,14 @@
 <?php $this->load->view('frontend/template/navbar')?>
 <div class="about_brad">
     <div class="container">
-        <h2>Privacy-Policy</h2>
-        <p><a href="<?php echo base_url()?>">Home</a> / Privacy-Policy</p>
+        <h2>Refund and Camcelation Policy</h2>
+        <p><a href="<?php echo base_url()?>">Home</a> / Refund-Policy</p>
     </div>
 </div>
 
 <div class="privacy">
     <div class="container">
-        <h2>Privacy Policy</h2>
+        <h2>Refund and Camcelation Policy</h2>
         <p>This Privacy Policy sets out the basis on which information collected from the users or provided by the users is processed by us, BADA ENGINEERING PVT LTD, a company incorporated under the laws of India and having its Corporate office at PLOT NO-1031 ADARSH NAGAR, BRHIND KRISHNA HOSPITAL, SAMASTIPUR (848101) IN and/or its subsidiary(ies) and/or affiliate(s) (collectively hereinafter referred to as the “Company”), which operates various websites, apps, newsletters and other services including but not limited to delivery of information and content via any mobile or internet connected device or otherwise (collectively the “Service(s)”).</p>
         <p>This Privacy Policy forms part and parcel of the Terms of Use for the Services. Capitalized terms which have been used here but are undefined shall have the same meaning as attributed to them in the Terms of Use. The Company respects the privacy of the users of the Services and is committed to protect it in all respects.</p>
         <h4>1. INFORMATION RECEIVED, COLLECTED AND STORED BY THE COMPANY</h4>

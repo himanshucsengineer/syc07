@@ -24,7 +24,7 @@
         <h5>Important Links</h5>
         <div class="links">
           <a href="<?php echo base_url()?>privacy-policy">Privacy-Policy</a></br>
-          <!-- <a href="<?php echo base_url()?>refund-policy">Refund & Cancellation</a></br> -->
+          <a href="<?php echo base_url()?>refund-policy">Refund & Cancellation</a></br>
           <a href="<?php echo base_url()?>term">Term & Conditions</a></br>
           <a href="<?php echo base_url()?>about-us">About Us</a></br>
           <a href="<?php echo base_url()?>contact-us">Contact us</a></br>
